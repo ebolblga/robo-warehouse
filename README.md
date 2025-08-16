@@ -62,7 +62,14 @@ After running the script, it will do the following:
 ## Conclusion
 I am not familiar with the problematics of warehouses and their logistics. But this seems like a viable option to me.
 
-## Setup with [Python](https://www.python.org/downloads/)
+## Honorable mentions
+Before working on this project I searched if it has been done before and here are some related concepts:
+- [AutoStore](https://www.swisslog.com/en-us/products-systems-solutions/asrs-automated-storage-retrieval-systems/autostore-integrator) - bins stacked on top of each other in a grid, robots on top pick them out.
+- [Ocado’s hive-grid system](https://www.ocadogroup.com/solutions/our-technology) - similar thing.
+
+Those systems usually stack goods vertically and retrieve them from the top, meaning you can't just take out any pallet. Also their designs don't use full scale pallets.
+
+## Developint [Python](https://www.python.org/downloads/) script
 ```bash
 # Install the UV package manager
 curl -LsSf https://astral.sh/uv/install.sh | sh
