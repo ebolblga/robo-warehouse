@@ -97,5 +97,8 @@ uv run ruff format
 uv run ruff check --fix
 ```
 
+### Runnint the script in Blender
+First download Blender (v4.5 was used for this project). Now open [`assets/warehouse.blend`](https://github.com/ebolblga/robo-warehouse/blob/master/assets/warehouse.blend) file and navigate to "Scripting" tab. If the script is not opened - open it and run it.
+
 ## [License](https://github.com/ebolblga/robo-warehouse/blob/master/LICENSE.md)
 This program is licensed under the MIT License. Please read the License file to know about the usage terms and conditions.

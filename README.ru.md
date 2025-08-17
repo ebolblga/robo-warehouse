@@ -97,7 +97,8 @@ uv run ruff format
 uv run ruff check --fix
 ```
 
-Для запуска скрипта в Blender, просто импортируйте его в меню "Scripting"
+### Запуск скрипта в Blender
+Сначала скачайте Blender (версия 4.5 использовалась для этого проекта). Теперь откройте файл [`assets/warehouse.blend`](https://github.com/ebolblga/robo-warehouse/blob/master/assets/warehouse.blend) и перейдите на вкладку «Скрипты». Если скрипт не открылся, откройте его и запустите.
 
 ## [Лицензия](https://github.com/ebolblga/robo-warehouse/blob/master/LICENSE.md)
 Эта программа распространяется под лицензией MIT License. Пожалуйста, прочтите файл лицензии, чтобы узнать об условиях использования.
